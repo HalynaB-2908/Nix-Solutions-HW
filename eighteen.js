@@ -8,7 +8,6 @@
 showDuration();
 */
 
-
 //makeSaver
 /*let makeSaver = (value, returnValue) => {
     let valueS = value;
@@ -20,7 +19,6 @@ showDuration();
 
 makeSaver("HI",true);
 */
-
 
 //Final Countdown
 /*let stoooop = () => {
@@ -41,9 +39,6 @@ makeSaver("HI",true);
 stoooop();
 */
 
-
-
-
 //MyBind
 /*function myBind(func,context,bindArgs){
     function wrapper(){
@@ -55,7 +50,6 @@ stoooop();
 }
 
 */
-
 
 /*
 function myBind(func, context , bindArgs) {
@@ -75,11 +69,6 @@ let zeroPrompt = myBind(prompt, window, [undefined, "0"])
 let someNumber = zeroPrompt("Введите число")
 //alert(someNumber);
     */
-
-
-
-
-
 
 //bind by Vladilen
 /*
@@ -124,9 +113,6 @@ bind(info,person,"12345")("v@gmail.com")
 bind(info,person,"12345","v@gmail.com")
 
 */
-
-
-
 
 //OOP
 
@@ -187,14 +173,13 @@ bind(info,person,"12345","v@gmail.com")
         }
         else{
             console.log("open isn't  changed");
-        }*//*
+        }*/ /*
         let chng = 
     }
 
 };*/
 
-
-
+/*
 function Password(parent, open, id, makeEye,divId){//makeEye - boolean, which certains if the func creates EYE-icon.
     parent.insertAdjacentHTML("afterbegin",
     `<div id = ${divId}>
@@ -214,7 +199,7 @@ function Password(parent, open, id, makeEye,divId){//makeEye - boolean, which ce
     };
     this.getValue = function(){
         return input.value;
-    };*/
+    };
 
     this.setOpen = function(boolean){ //This function makes the password showed on the screen
         if(boolean===false){
@@ -271,35 +256,19 @@ function Password(parent, open, id, makeEye,divId){//makeEye - boolean, which ce
         console.log("oninput");
     });*/
 
-}
+/*}
 
 
-let p = new Password(document.body, false,"pass",true,"divPass");
+let p = new Password(document.body, false,"pass",true,"divPass");*/
 
 //p.onChange = data => console.log(data)
 //p.onOpenChange = open => console.log(open)
-
 
 //p.setValue('qwerty')
 //console.log(p.getValue())
 
 //p.setOpen(false);
 //console.log(p.getOpen())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 let body = document.querySelector("body");
@@ -326,36 +295,3 @@ check.addEventListener("click",()=>{
     }
 
 })*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
