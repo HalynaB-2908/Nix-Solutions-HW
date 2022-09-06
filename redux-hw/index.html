@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+
+    <script src="index.js" defer></script>
+   
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1>SHOP</h1>
+
+<table id="goods">
+    <tr>
+        <th><p id ="cokeNumber">500 items</p></th>
+        <th><p id ="fantaNumber">500 items</p></th>
+        <th><p id ="waterNumber">500 items</th></th>
+    </tr>
+    <tr>
+    <th><img src="img/coke.jpg"></th>
+    <th><img src="img/fanta.jpg"></th>
+    <th><img src="img/water.jpg"></th>
+    </tr>
+    <tr>
+        <th id = "cokePrice">22$</th>
+        <th id = "fantaPrice">45$</th>
+        <th id = "waterPrice">65$</th>
+    </tr>
+    <tr>
+        <th><input type="button" value = "BUY" class = "buy" id = "buyCoke"
+            onclick="buy(cokePrice,money)"></th>
+        <th><input type="button" value = "BUY" class = "buy" id = "buyFanta"
+            onclick="buy(fantaPrice,money)"></th>
+        <th><input type="button" value = "BUY" class = "buy" id = "buyWater"
+            onclick="buy(waterPrice,money)"></th>
+    </tr>
+    <tr>
+        <th ></th>
+    </tr>
+    <h2 id = "money">Money: 99$</h2>
+    <p id = "bought"></p>
+</table>
+
+<h2>Message:</h2>
+
+</body>
+</html>
